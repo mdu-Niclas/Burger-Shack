@@ -1,0 +1,374 @@
+/**
+ * fil: css/style.css
+ **/
+
+
+        
+html, body{
+  height: 50%;
+}
+
+html{
+    background-image: url(../images/cheeseburger34-redigeret-2-940x400.jpg);
+    background-position:center;
+    min-height: 925px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 20px 20px;
+    
+
+  
+}
+
+body{
+  margin: 20px;
+  font-family:'Lemon';font-size: 18px;
+   
+}
+
+
+/*
+html { 
+  background: url(../images/cheeseburger34-redigeret-2-940x400.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+
+ul {
+  list-style-type: none;
+  margin: 15px;
+  padding: 0;
+  overflow: hidden;
+  background-color:transparent;
+
+}
+
+li {
+  float: right;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 27px;
+  text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color:forestgreen;
+}
+
+/*
+.ring {
+    border-style: solid;
+    border-radius: 17px;
+    border-color: #1e6125;
+    font-size: 15px;
+
+
+}
+*/
+
+
+.ring2{
+    
+    border-style: solid;
+    border-radius: 17px;
+    border-color: #1e6125;
+    font-size: 18px;
+    color: #fff;
+
+   
+}
+
+/*.ring {/*
+    background-color: #1e6125; /* Changing background color */
+    font-weight: bold; /* Making font bold */
+    border-radius: 17px; /* Making border radius */
+    width: auto; /* Making auto-sizable width */
+    height: auto; /* Making auto-sizable height */
+    padding:0px; /* Making space around letters 
+    */
+    font-size: 20px; /* Changing font size */
+
+
+}
+/*
+.ring2 {
+    background-color:#1e6125; /* Changing background color */
+    font-weight:bold; /* Making font bold */
+    border-radius: 30px; /* Making border radius */
+    width: auto; /* Making auto-sizable width */
+    height: auto; /* Making auto-sizable height */
+    padding:0; /* Making space around letters */
+    font-size: 20px; /* Changing font size */
+    
+}
+
+.logo{
+    padding: 10px 20px;
+    margin: 20px;
+
+}
+
+
+#flexible {
+    display: flex;
+    justify-content: center;
+}
+
+#flexible > article {
+    width: 300px;
+    color: darkgreen;
+    background-color:transparent;
+    margin: 65px;
+    border: solid;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+
+#flexible > article > h2{
+    letter-spacing: 2px;
+}
+    
+
+h1{
+    text-align: center;
+    color: darkgreen;
+}
+    
+/*
+footer {
+    background-image: url(../images/87964125_480621805966514_7067206834020417536_n.png);
+    min-height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:auto;
+   */ 
+}
+
+/*
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want 
+.fa:hover {
+  opacity: 0.7;
+}
+*/
+
+/* Set a specific color for each brand */
+
+/* Facebook 
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+*/
+
+/* Twitter 
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+
+
+.footer-distributed{
+	background: white;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  darkgreen;
+	font: normal 20px 'lemon', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color: black;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:black;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: darkgreen;
+	font-size: 20px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: black;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+    font-family: 'lemon';
+    color: darkgreen
+}
+
+.footer-distributed .footer-center p a{
+	color:darkgreen;
+	text-decoration: none;
+    font-family: 'lemon';
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  black;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:darkgreen;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+    font-family: 'lemon'
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
+
+
+ 
+
+}
